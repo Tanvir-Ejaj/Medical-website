@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playquest</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Nav area start -->
+
+    <div class="nav-main">
+        <div class="container">
+            <div class="row justify-content-between align-items-end">
+                <div class="col-6 col-lg-3 text-center text-md-start  text-lg-start">
+                    <div class="nav-logo">
+                        <a href="index.html">
+                            <img src="images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5 mt-3 mt-lg-0 nav-links" id="navLinks">
+                    <div class="menubar close">
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
+                    </div>
+                    <div class="row justify-content-center justify-content-lg-end align-items-center">
+                        <div class="col-12 col-lg-4 col-md-12 col-xl-4">
+                            <div class="nice-select-main">
+                                <div class="nice-select">
+                                    <span class="current"><img src="images/flag.png" alt="flag">English</span>
+                                    <ul class="list">
+                                        <li data-value="1" class="option">Some option</li>
+                                        <li data-value="2" class="option">Another option</li>
+                                        <li data-value="4" class="option">Potato</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-12 col-xl-3 text-center text-lg-start">
+                            <div class="login">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                        class="fa-regular fa-user"></i> Login</a>
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body text-center">
+                                                <img src="images/logo2.png" alt="logo2">
+                                                <h3>Welcome to Pilot Bazar</h3>
+                                                <p>You can buy sell your car, lands and flats by using pilot bazar's
+                                                    amazing web portal.
+                                                </p>
+                                                <div class="modal-inputs mt-3">
+                                                    <span>+880</span>
+                                                    <input type="number" name="number" placeholder="1234-xxxx">
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary">Become a seller</button>
+                                                <button type="button" class="btn btn-primary"
+                                                    data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Login /
+                                                    Sign Up</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" tabindex="-1">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body text-center">
+                                                <img src="images/logo2.png" alt="logo2">
+                                                <h3>Welcome to Pilot Bazar</h3>
+                                                <p>You can buy sell your car, lands and flats by using pilot bazar's
+                                                    amazing web portal.
+                                                </p>
+                                                <div class="modal-inputs2 d-flex justify-content-evenly mt-3">
+                                                    <input type="number">
+                                                    <input type="number">
+                                                    <input type="number">
+                                                    <input type="number">
+                                                    <input type="number">
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary">Resend Code</button>
+                                                <button type="button" class="btn btn-primary"
+                                                    data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Verify
+                                                    OTP</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="col-12 col-lg-5 col-md-12 col-xl-5 text-center text-lg-end text-md-end mt-3 mt-lg-0 mt-md-0">
+                            <div class="nav-btn">
+                                <a href="#">POST YOUR AD</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 text-end">
+                    <div class="menubar">
+                        <i class="fa fa-bars" onclick="showMenu()"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Nav area end -->
+
+    <!-- Small Banner area start -->
+
+    <div class="sm-banner">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <div class="sm-banner-inner">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">||</a></li>
+                            <li><a href="terms.html">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Small Banner area end -->
+
+    <!-- About area start -->
+
+    <div class="about-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="about-top">
+                        <div class="t-heading">
+                            <h3>What is Pilot Bazar Limited?</h3>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
+                                McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of
+                                the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through
+                                the cites of the word in classical literature, discovered the undoubtable source. Lorem
+                                Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
+                                Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the
+                                theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                                "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                            <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
+                                interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero
+                                are also reproduced in their exact original form, accompanied by English versions from
+                                the 1914 translation by H. Rackham.</p>
+                        </div>
+                    </div>
+                    <div class="about-top about-top2">
+                        <div class="t-heading">
+                            <h3>What is Pilot Bazar Limited?</h3>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
+                                McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of
+                                the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through
+                                the cites of the word in classical literature, discovered the undoubtable source. Lorem
+                                Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
+                                Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the
+                                theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                                "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                            <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
+                                interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero
+                                are also reproduced in their exact original form, accompanied by English versions from
+                                the 1914 translation by H. Rackham.</p>
+                        </div>
+                        <div class="about-list">
+                            <ul>
+                                <li>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Lati</li>
+                                <li>n literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-</li>
+                                <li>dney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum 
+                                </li>
+                                <li>sage, and going through the cites of the word in classical literature, discovered the undoubtable source.</li>
+                                <li>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" ( The Extremes of 
+                                </li>
+                                <li>od and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during 
+                                </li>
+                                <li>the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 
+                                </li>
+                                <li>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About area end -->
+
+    <!-- All JS Area Start -->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/mixitup.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/theme.js"></script>
+
+    <!-- All JS Area End -->
+</body>
+
+</html>

@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playquest</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Nav area start -->
+
+    <div class="nav-main">
+        <div class="container">
+            <div class="row justify-content-between align-items-end">
+                <div class="col-6 col-lg-3 text-center text-md-start  text-lg-start">
+                    <div class="nav-logo">
+                        <a href="index.html">
+                            <img src="images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5 mt-3 mt-lg-0 nav-links" id="navLinks">
+                    <div class="menubar close">
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
+                    </div>
+                    <div class="row justify-content-center justify-content-lg-end align-items-center">
+                        <div class="col-12 col-lg-4 col-md-12 col-xl-4">
+                            <div class="nice-select-main">
+                                <div class="nice-select">
+                                    <span class="current"><img src="images/flag.png" alt="flag">English</span>
+                                    <ul class="list">
+                                        <li data-value="1" class="option">Some option</li>
+                                        <li data-value="2" class="option">Another option</li>
+                                        <li data-value="4" class="option">Potato</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-md-12 col-xl-3 text-center text-lg-start">
+                            <div class="login">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                        class="fa-regular fa-user"></i> Login</a>
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body text-center">
+                                                <img src="images/logo2.png" alt="logo2">
+                                                <h3>Welcome to Pilot Bazar</h3>
+                                                <p>You can buy sell your car, lands and flats by using pilot bazar's
+                                                    amazing web portal.
+                                                </p>
+                                                <div class="modal-inputs mt-3">
+                                                    <span>+880</span>
+                                                    <input type="number" name="number" placeholder="1234-xxxx">
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary">Become a seller</button>
+                                                <button type="button" class="btn btn-primary"
+                                                    data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Login /
+                                                    Sign Up</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" tabindex="-1">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body text-center">
+                                                <img src="images/logo2.png" alt="logo2">
+                                                <h3>Welcome to Pilot Bazar</h3>
+                                                <p>You can buy sell your car, lands and flats by using pilot bazar's
+                                                    amazing web portal.
+                                                </p>
+                                                <div class="modal-inputs2 d-flex justify-content-evenly mt-3">
+                                                    <input type="number">
+                                                    <input type="number">
+                                                    <input type="number">
+                                                    <input type="number">
+                                                    <input type="number">
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary">Resend Code</button>
+                                                <button type="button" class="btn btn-primary"
+                                                    data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Verify
+                                                    OTP</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-5 col-md-12 col-xl-5 text-center text-lg-end text-md-end mt-3 mt-lg-0 mt-md-0">
+                            <div class="nav-btn">
+                                <a href="#">POST YOUR AD</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 text-end">
+                    <div class="menubar">
+                        <i class="fa fa-bars" onclick="showMenu()"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Nav area end -->
+
+    <!-- Details area start -->
+
+    <div class="details-main">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6">
+                    <div class="deatil-heading">
+                        <h3>Mercedes AMG SLS 2016</h3>
+                        <p>Posted on 12 Dec, 2022-11:56, Banani, Dhaka</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-end">
+                    <div class="share">
+                        <a href="#"><i class="fa-solid fa-share-nodes"></i> Share</a>
+                        <a href="#"><i class="fa-regular fa-heart"></i> Favourite</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="details-left">
+                        <div class="details-slider">
+                            <div class="slider-big">
+                                <div class="slider-big-pic">
+                                    <img src="images/details-big.png" alt="details-big">
+                                    <span>Featured</span>
+                                </div>
+                                <div class="slider-big-pic">
+                                    <img src="images/details-big.png" alt="details-big">
+                                    <span>Featured</span>
+                                </div>
+                                <div class="slider-big-pic">
+                                    <img src="images/details-big.png" alt="details-big">
+                                    <span>Featured</span>
+                                </div>
+                                <div class="slider-big-pic">
+                                    <img src="images/details-big.png" alt="details-big">
+                                    <span>Featured</span>
+                                </div>
+                                <div class="slider-big-pic">
+                                    <img src="images/details-big.png" alt="details-big">
+                                    <span>Featured</span>
+                                </div>
+                            </div>
+                            <div class="slider-small">
+                                <div class="slider-small-pic">
+                                    <img src="images/small-details.png" alt="details-small">
+                                </div>
+                                <div class="slider-small-pic">
+                                    <img src="images/sm-d2.png" alt="details-small">
+                                </div>
+                                <div class="slider-small-pic">
+                                    <img src="images/sm-d3.png" alt="details-small">
+                                </div>
+                                <div class="slider-small-pic">
+                                    <img src="images/sm-d5.png" alt="details-small">
+                                </div>
+                                <div class="slider-small-pic">
+                                    <img src="images/sm-d3.png" alt="details-small">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grade-inner">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6 col-sm-6">
+                                    <div class="grade-left">
+                                        <h3>Tk. 1,21,000,000</h3>
+                                        <span>/negotiable</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-6 text-end">
+                                    <div class="grade-right">
+                                        <a href="#"><span></span> GRADE - A</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-inner">
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-6">
+                                    <div class="info-details d-flex">
+                                        <div class="infos">
+                                            <p>Brand:</p>
+                                            <p>Trim/Edition:</p>
+                                            <p>Registration Year:</p>
+                                            <p>Transmission:</p>
+                                            <p>Fuel type:</p>
+                                            <p>Kilometers run:</p>
+                                        </div>
+                                        <div class="infos">
+                                            <p>Toyota</p>
+                                            <p>G-PKG</p>
+                                            <p>2012</p>
+                                            <p>Automatic</p>
+                                            <p>Octane</p>
+                                            <p>46,552 km</p>
+                                        </div>
+                                    </div>
+                                    <div class="info-details d-flex">
+                                        <div class="infos">
+                                            <p>Brand:</p>
+                                            <p>Trim/Edition:</p>
+                                            <p>Registration Year:</p>
+                                            <p>Transmission:</p>
+                                            <p>Fuel type:</p>
+                                            <p>Kilometers run:</p>
+                                        </div>
+                                        <div class="infos">
+                                            <p>Toyota</p>
+                                            <p>G-PKG</p>
+                                            <p>2012</p>
+                                            <p>Automatic</p>
+                                            <p>Octane</p>
+                                            <p>46,552 km</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-6">
+                                    <div class="info-details d-flex">
+                                        <div class="infos">
+                                            <p>Model:</p>
+                                            <p>Year of Manufacture:</p>
+                                            <p>Condition:</p>
+                                            <p>Body Type:</p>
+                                            <p>Engine Capacity:</p>
+                                        </div>
+                                        <div class="infos">
+                                            <p>Allion</p>
+                                            <p>2012</p>
+                                            <p>Used</p>
+                                            <p>Saloon</p>
+                                            <p>1500 cc</p>
+                                        </div>
+                                    </div>
+                                    <div class="info-details d-flex mt-4">
+                                        <div class="infos">
+                                            <p>Model:</p>
+                                            <p>Year of Manufacture:</p>
+                                            <p>Condition:</p>
+                                            <p>Body Type:</p>
+                                            <p>Engine Capacity:</p>
+                                        </div>
+                                        <div class="infos">
+                                            <p>Allion</p>
+                                            <p>2012</p>
+                                            <p>Used</p>
+                                            <p>Saloon</p>
+                                            <p>1500 cc</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="details-area">
+                            <h3>Details</h3>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
+                                McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of
+                                the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through
+                                the cites of the word in classical literature, discovered the undoubtable source. Lorem
+                                Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
+                                Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the
+                                theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                                "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                            <p class="pt-3">Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                                roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
+                                old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked
+                                up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+                                going through the cites of the word in classical literature, discovered the undoubtable
+                                source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
+                                Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a
+                                treatise on the theory of ethics, very popular during the Renaissance. The first line of
+                                Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="details-right">
+                        <div class="details-logo d-flex justify-content-between justify-content-sm-evenly align-items-center">
+                            <div class="d-logo">
+                                <img src="images/logo2.png" alt="">
+                            </div>
+                            <div class="d-text">
+                                <h3>Pilot Bazar Ltd.</h3>
+                                <img src="images/author.png" alt="author">
+                                <img src="images/verified.png" alt="verified">
+                                <p>Member since Dec, 2020</p>
+                            </div>
+                        </div>
+                        <div class="details-number d-flex justify-content-sm-center align-items-center">
+                            <div class="number-icon">
+                                <i class="fa-solid fa-phone-volume"></i>
+                            </div>
+                            <div class="number-text">
+                                <h3>0177XXXXXXX</h3>
+                                <p>Click to show phone number</p>
+                            </div>
+                        </div>
+                        <div class="details-contact">
+                            <a href="#">
+                                <img src="images/app.png" alt="what's-app">
+                                Chat via whatsapp
+                            </a>
+                            <a href="#">
+                                <img src="images/chat-1.png" alt="chat-app">
+                                Send Message
+                            </a>
+                        </div>
+                        <div class="details-map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d937731.9669954636!2d112.95718786669006!3d23.35145313995521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3402f895a35c2bc7%3A0xe59e075adeae415!2sGuangzhou%2C%20Guangdong%20Province%2C%20China!5e0!3m2!1sen!2sbd!4v1686040561131!5m2!1sen!2sbd"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div class="bid-main">
+                        <h3>Bid a Price</h3>
+                        <input type="number" placeholder="Bid Price">
+                        <input type="number" placeholder="Your mobile number">
+                        <div class="submit-btn">
+                            <button type="submit">Place your Bid</button>
+                        </div>
+                        <div class="bids">
+                            <h3>Top Bids</h3>
+                            <div class="bids-inner d-flex justify-content-between align-items-center">
+                                <div class="bid-number">
+                                    <p>0177*****33</p>
+                                </div>
+                                <div class="bid-dash">
+                                    <img src="images/Line5.png" alt="line" class="w-100 img-fluid">
+                                </div>
+                                <div class="bid-price">
+                                    <p>Tk. 1,21,000,000</p>
+                                </div>
+                            </div>
+                            <div class="bids-inner d-flex justify-content-between align-items-center">
+                                <div class="bid-number">
+                                    <p>0177*****33</p>
+                                </div>
+                                <div class="bid-dash">
+                                    <img src="images/Line5.png" alt="line" class="w-100 img-fluid">
+                                </div>
+                                <div class="bid-price">
+                                    <p>Tk. 1,21,000,000</p>
+                                </div>
+                            </div>
+                            <div class="bids-inner d-flex justify-content-between align-items-center">
+                                <div class="bid-number">
+                                    <p>0177*****33</p>
+                                </div>
+                                <div class="bid-dash">
+                                    <img src="images/Line5.png" alt="line" class="w-100 img-fluid">
+                                </div>
+                                <div class="bid-price">
+                                    <p>Tk. 1,21,000,000</p>
+                                </div>
+                            </div>
+                            <div class="bids-inner d-flex justify-content-between align-items-center">
+                                <div class="bid-number">
+                                    <p>0177*****33</p>
+                                </div>
+                                <div class="bid-dash">
+                                    <img src="images/Line5.png" alt="line" class="w-100 img-fluid">
+                                </div>
+                                <div class="bid-price">
+                                    <p>Tk. 1,21,000,000</p>
+                                </div>
+                            </div>
+                            <div class="bids-inner d-flex justify-content-between align-items-center">
+                                <div class="bid-number">
+                                    <p>0177*****33</p>
+                                </div>
+                                <div class="bid-dash">
+                                    <img src="images/Line5.png" alt="line" class="w-100 img-fluid">
+                                </div>
+                                <div class="bid-price">
+                                    <p>Tk. 1,21,000,000</p>
+                                </div>
+                            </div>
+                            <div class="bids-inner d-flex justify-content-between align-items-center">
+                                <div class="bid-number">
+                                    <p>0177*****33</p>
+                                </div>
+                                <div class="bid-dash">
+                                    <img src="images/Line5.png" alt="line" class="w-100 img-fluid">
+                                </div>
+                                <div class="bid-price">
+                                    <p>Tk. 1,21,000,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Details area end -->
+
+    <!-- All JS Area Start -->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/mixitup.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/theme.js"></script>
+
+    <!-- All JS Area End -->
+</body>
+
+</html>

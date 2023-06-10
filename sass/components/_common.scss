@@ -1,0 +1,52 @@
+/* Common CSS Area Start */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0;
+}
+
+:root {
+  --primary-font: "Poppins", sans-serif;
+}
+
+ol,
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: var(--primary-font);
+  background: #F0F2F5;
+}.modal-open{
+  padding-right: 0 !important;
+}
+
+
+/* Common CSS Area End */

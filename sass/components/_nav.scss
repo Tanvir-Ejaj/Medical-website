@@ -1,0 +1,69 @@
+.nav-main {
+  padding: 30px 0;
+  background: #0284c7;
+  .nice-select-main {
+    .nice-select {
+      span.current {
+        img {
+          margin-right: 5px;
+        }
+      }
+      background: transparent;
+      border: 0;
+      outline: 0;
+      font-weight: 600;
+      font-size: 16px;
+      color: #ffffff;
+      &::after {
+        border-color: #ffffff;
+      }
+      ul {
+        background: #0284c7;
+        li {
+          &:hover {
+            background: #789fb2;
+          }
+        }
+      }
+    }
+  }
+  .login {
+    a {
+      font-weight: 600;
+      font-size: 16px;
+      color: #ffffff;
+      i {
+        margin-right: 6px;
+      }
+    }
+  }
+  .nav-btn {
+    a {
+      font-weight: 600;
+      font-size: 14px;
+      color: #000000;
+      padding: 10px 20px;
+      background: #facc15;
+      text-transform: uppercase;
+      border-radius: 28px;
+      -webkit-border-radius: 28px;
+      -moz-border-radius: 28px;
+      -ms-border-radius: 28px;
+      -o-border-radius: 28px;
+      transition: 0.5s;
+      -webkit-transition: 0.5s;
+      -moz-transition: 0.5s;
+      -ms-transition: 0.5s;
+      -o-transition: 0.5s;
+      &:hover {
+        background: #f8eec6;
+      }
+    }
+  }
+  .menubar {
+    i {
+      font-size: 30px;
+      color: #ffffff;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.copyright-main {
+  margin-top: 5px;
+  .copyright-inner {
+    padding: 35px 0;
+    border-top: 1px solid #d9d9d9;
+    .copyright-left {
+      p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #000000;
+        a{
+            font-weight: 600;
+            color: #0284C7;
+        }
+      }
+    }
+  }
+}
